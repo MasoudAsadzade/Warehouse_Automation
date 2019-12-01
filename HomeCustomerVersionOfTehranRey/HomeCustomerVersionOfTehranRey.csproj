@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4E79FBEC-6348-4B0A-BFF4-8FCE2FB621DC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HomeCustomerVersionOfTehranRey</RootNamespace>
+    <AssemblyName>HomeCustomerVersionOfTehranRey</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationIcon>Tehran - Ray.ico</ApplicationIcon>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>2F7A0635E5B4CBB89BD1F9E3B9461CA8C04B79EB</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>HomeCustomerVersionOfTehranRey_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AmrAssistanteForms, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\AmrAssistanteForms.dll</HintPath>
+    </Reference>
+    <Reference Include="AmrDynamicCrystal, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Documents and Settings\Mehr\Desktop\AmrDynamicCrystal.dll</HintPath>
+    </Reference>
+    <Reference Include="AmrPersianCalender, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Component &amp; DLL\Microgod\AmrPersianCalender.dll</HintPath>
+    </Reference>
+    <Reference Include="AMRVista Controls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\AMRVista Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="AnalogClock, Version=1.0.1985.27115, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\AnalogClock.dll</HintPath>
+    </Reference>
+    <Reference Include="AxInterop.DSOFramer, Version=1.3.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Samples\Vb7Test\AxInterop.DSOFramer.dll</HintPath>
+    </Reference>
+    <Reference Include="Bornander UI ScrollBar %28Desktop%29, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Bornander UI ScrollBar (Desktop).dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Toolkit, Version=2.8.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Mehr\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalDecisions.CrystalReports.Engine.1.0.0\lib\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalDecisions.ReportSource.1.0.0\lib\CrystalDecisions.ReportSource.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalDecisions.Shared.1.0.0\lib\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\packages\CrystalDecisions.Windows.Forms.1.0.0\lib\CrystalDecisions.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="FarsiLibrary.Resources, Version=1.9.0.0, Culture=neutral, PublicKeyToken=def7c46cace23f8f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\fa\FarsiLibrary.Resources.dll</HintPath>
+    </Reference>
+    <Reference Include="FarsiLibrary.Utils, Version=1.9.0.0, Culture=neutral, PublicKeyToken=def7c46cace23f8f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\FarsiLibrary.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="FarsiLibrary.Win, Version=1.9.0.0, Culture=neutral, PublicKeyToken=def7c46cace23f8f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\fa\FarsiLibrary.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Build.Engine" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Carpet.cs" />
+    <Compile Include="Classes\CarpetList.cs" />
+    <Compile Include="Classes\clsAccounting_DataAccessLayer.cs" />
+    <Compile Include="Classes\clsAnbarManagment_DataAccessLAyer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\clsUnicodeConvertor.cs" />
+    <Compile Include="Classes\clsWorkerManagment_DataAccessLayer.cs" />
+    <Compile Include="Classes\Customer.cs" />
+    <Compile Include="Classes\CustomerList.cs" />
+    <Compile Include="Classes\HomeCustomer.cs" />
+    <Compile Include="Comonents\cmoExcelReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Comonents\cmoExcelReport.designer.cs">
+      <DependentUpon>cmoExcelReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Crystal\CrystalReportWorkerSalary.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReportWorkerSalary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal\frmSalaryPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Crystal\frmSalaryPrint.Designer.cs">
+      <DependentUpon>frmSalaryPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M_Forms\frmCarpetListShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M_Forms\frmCarpetListShow.Designer.cs">
+      <DependentUpon>frmCarpetListShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M_Forms\frmCarpetRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M_Forms\frmCarpetRegistration.Designer.cs">
+      <DependentUpon>frmCarpetRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M_Forms\frmEditCarpet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M_Forms\frmEditCarpet.Designer.cs">
+      <DependentUpon>frmEditCarpet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M_Forms\frmFactorSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M_Forms\frmFactorSetting.Designer.cs">
+      <DependentUpon>frmFactorSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M_Forms\frmHomeCustomerListShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M_Forms\frmHomeCustomerListShow.designer.cs">
+      <DependentUpon>frmHomeCustomerListShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M_Forms\frmHomeCustomerRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M_Forms\frmHomeCustomerRegistration.designer.cs">
+      <DependentUpon>frmHomeCustomerRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M_Forms\frmInvoiceDetailsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M_Forms\frmInvoiceDetailsView.designer.cs">
+      <DependentUpon>frmInvoiceDetailsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M_Forms\frmLogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M_Forms\frmLogIn.Designer.cs">
+      <DependentUpon>frmLogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M_Forms\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M_Forms\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M_Forms\frmServicesSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M_Forms\frmServicesSetting.Designer.cs">
+      <DependentUpon>frmServicesSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Comonents\cmoExcelReport.resx">
+      <DependentUpon>cmoExcelReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\CrystalReportWorkerSalary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReportWorkerSalary.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal\frmSalaryPrint.resx">
+      <DependentUpon>frmSalaryPrint.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M_Forms\frmCarpetListShow.resx">
+      <DependentUpon>frmCarpetListShow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M_Forms\frmCarpetRegistration.resx">
+      <DependentUpon>frmCarpetRegistration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M_Forms\frmEditCarpet.resx">
+      <DependentUpon>frmEditCarpet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M_Forms\frmFactorSetting.resx">
+      <DependentUpon>frmFactorSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M_Forms\frmHomeCustomerListShow.resx">
+      <DependentUpon>frmHomeCustomerListShow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M_Forms\frmHomeCustomerRegistration.resx">
+      <DependentUpon>frmHomeCustomerRegistration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M_Forms\frmInvoiceDetailsView.resx">
+      <DependentUpon>frmInvoiceDetailsView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M_Forms\frmLogIn.resx">
+      <DependentUpon>frmLogIn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M_Forms\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M_Forms\frmServicesSetting.resx">
+      <DependentUpon>frmServicesSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="R_Forms\frmAgreementDetail.resx">
+      <DependentUpon>frmAgreementDetail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="R_Forms\frmAgreementDetailEdit.resx">
+      <DependentUpon>frmAgreementDetailEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="R_Forms\frmSalary.resx">
+      <DependentUpon>frmSalary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="R_Forms\frmWorkerListShow.resx">
+      <DependentUpon>frmWorkerListShow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="R_Forms\frmWorkerRegistration.resx">
+      <DependentUpon>frmWorkerRegistration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HomeCustomerVersionOfTehranRey_1_TemporaryKey.pfx" />
+    <None Include="HomeCustomerVersionOfTehranRey_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="R_Forms\frmAgreementDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="R_Forms\frmAgreementDetail.designer.cs">
+      <DependentUpon>frmAgreementDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="R_Forms\frmAgreementDetailEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="R_Forms\frmAgreementDetailEdit.Designer.cs">
+      <DependentUpon>frmAgreementDetailEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="R_Forms\frmSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="R_Forms\frmSalary.designer.cs">
+      <DependentUpon>frmSalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="R_Forms\frmWorkerListShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="R_Forms\frmWorkerListShow.designer.cs">
+      <DependentUpon>frmWorkerListShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="R_Forms\frmWorkerRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="R_Forms\frmWorkerRegistration.designer.cs">
+      <DependentUpon>frmWorkerRegistration.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sett.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\28.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\irancarpet158.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\irancarpet151.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iran-carpet09.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rug3 copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rug13 copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\281.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\231.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\43.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\irancarpet1581.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\irancarpet1582.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_82.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconExplorer.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mobsync.16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\binoculars.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_user.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_ok.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\send.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_user.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paste.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new-folder.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\221.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallpaper1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rug13 copy1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\07copy-l.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ref_32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mobsync.19.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mobsync.18.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print_32.ico" />
+    <None Include="Resources\undo_32.ico" />
+    <None Include="Resources\add_32.ico" />
+    <None Include="Resources\new_32.ico" />
+    <None Include="Resources\redo_32.ico" />
+    <Content Include="Tehran - Ray.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
